@@ -1,14 +1,13 @@
-<header class="app-header">
-  <h1>🏆 Pokémon Gym Leader Field Guide</h1>
-  
-  <nav class="navbar">
-    <a routerLink="home" routerLinkActive="active-tab">Home</a>
-    <a routerLink="kanto" routerLinkActive="active-tab">Kanto Region</a>
-    <a routerLink="johto" routerLinkActive="active-tab">Johto Region</a>
-    <a routerLink="leader-info" routerLinkActive="active-tab">Leader Info</a>
-  </nav>
-</header>
+<nav class="navbar">
+  <div class="nav-brand">🏆 Pokémon Gym Leader Field Guide</div>
+  <div class="nav-links">
+    <a routerLink="home" routerLinkActive="active-link">Home</a>
+    <a routerLink="kanto" routerLinkActive="active-link">Kanto Region</a>
+    <a routerLink="johto" routerLinkActive="active-link">Johto Region</a>
+    <a routerLink="hoenn" routerLinkActive="active-link">Hoenn Region</a>
+  </div>
+</nav>
 
-<main class="app-content">
-  <router-outlet />
+<main class="content-body">
+  <router-outlet></router-outlet>
 </main>

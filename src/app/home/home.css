@@ -7,3 +7,12 @@ h2 { text-align: center; color: #111; font-size: 2rem; margin-top: 0; }
 .kanto-accent { border-top: 5px solid #ff4d4d; }
 .johto-accent { border-top: 5px solid #4d94ff; }
 .history-card p { color: #444; line-height: 1.6; font-size: 0.98rem; }
+.regions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+  }
+  
+  .hoenn-card {
+    border-top: 4px solid #4caf50;
+  }
