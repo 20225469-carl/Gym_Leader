@@ -1,0 +1,7 @@
+.app-header { text-align: center; padding: 1.5rem; background: #1a1a1a; color: white; border-bottom: 4px solid #cc0000; }
+.app-header h1 { margin: 0 0 1rem 0; font-size: 2rem; }
+.navbar { display: flex; justify-content: center; gap: 1.5rem; }
+.navbar a { color: #ccc; text-decoration: none; font-weight: 600; padding: 0.5rem 1rem; border-radius: 4px; transition: all 0.2s; }
+.navbar a:hover { color: #fff; background: #333; }
+.navbar a.active-tab { color: #fff; background: #cc0000; }
+.app-content { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
